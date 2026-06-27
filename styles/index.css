@@ -1,0 +1,131 @@
+body {
+        background-image: url('../imagens/fundo_hp.jpg');
+        background-repeat: no-repeat;                  
+        background-size: cover;                        
+        background-position: center center;            
+        background-attachment: fixed;                  
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;  
+        z-index: 0;
+        color: wheat;   
+    }
+
+    .fundo-escuro {
+        position: fixed;  
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 0;
+    }
+    .campo_form{
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        position: relative; 
+        z-index: 1;
+        width: 40%;
+    }
+
+    .apresentacao{
+        background-color: rgba(0, 0, 0, 0.8);
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative; 
+        z-index: 1;   
+        text-align: center;      
+    }
+    label{
+        font-size: 20px;
+    }
+    #nome{
+        font-size: 17px;
+        width: 100%;
+        height: 30px;
+        border-radius: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #enviar{
+        margin-top: 15px;
+        background-color: #05db10;
+        color: #000;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 40%;
+    }
+    #enviar:hover{
+        background-color: #19a420;
+    }
+    .img_casas{
+        width: 80px;
+    }
+    .campo_casas {
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        max-width: 1200px;
+        padding: 20px;
+    }
+
+    .descricao {
+        margin-top: 30px;
+        margin: 20px;
+        flex-basis: 100%;
+        padding: 20px;
+        padding-bottom: 10px;
+        background-color:rgba(0,0,0,0.9);
+        border-radius: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+        height: 50px;
+    }    
+
+    .casas {
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        border-radius: 8px;
+        border: 1px solid white;
+        border-color: white;
+        padding: 10px;
+        width: 180px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul{
+        text-align: left;
+        position: relative;
+        right: 10px;
+    }
+    #grifinoria {
+        background-color: rgba(91, 26, 17, 0.8); /* vermelho escuro com opacidade */
+    }
+
+    #sonserina {
+        background-color: rgba(11, 61, 11, 0.8); /* verde escuro com opacidade */
+    }
+
+    #corvinal {
+        background-color: rgba(27, 42, 94, 0.8); /* azul escuro com opacidade */
+    }
+
+    #lufa-lufa {
+        background-color: rgba(107, 103, 0, 0.8); /* amarelo mostarda escuro com opacidade */
+    }

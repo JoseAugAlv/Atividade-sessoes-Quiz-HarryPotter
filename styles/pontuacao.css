@@ -1,0 +1,114 @@
+  body {
+            background-image: url('../imagens/fundo_hp.jpg');
+            background-repeat: no-repeat;                  
+            background-size: cover;                        
+            background-position: center center;            
+            background-attachment: fixed;                  
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;  
+            z-index: 0;   
+            color: white;
+        }
+
+        .fundo-escuro {
+            position: fixed;  
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* mais escuro para legibilidade */
+            z-index: 0;
+        }
+
+        .campo_saudacao {
+            font-size: 18px;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            margin-top: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            max-width: 600px;
+            position: relative; 
+            z-index: 1;
+            text-align: left;
+        }
+
+        .campo_saudacao ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .campo_saudacao li {
+            margin: 5px 0;
+        }
+
+        .casa_definida {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 25px;
+            margin: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 1;
+        }
+
+        .casa_definida h2 {
+            font-size: 28px;
+            color: #FFD700;
+            margin-bottom: 10px;
+        }
+
+        .casa_definida p {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .botoes {
+            margin-bottom: 40px;
+            z-index: 1;
+            position: relative;
+        }
+
+        #btn_voltar {
+            margin-top: 15px;
+            background-color: #ff0000;
+            color: #000;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #btn_voltar:hover {
+            background-color: #970505ff;
+        }
+
+        .botao_confirmar {
+            background-color: #198754;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .botao_cancelar {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+        }
